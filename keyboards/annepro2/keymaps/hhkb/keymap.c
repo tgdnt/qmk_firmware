@@ -32,9 +32,9 @@ enum anne_pro_layers {
   /*
   * Layer FN
   * ,-----------------------------------------------------------------------------------------.
-  * | PWR |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |    \      |
+  * | PWR |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 | DELETE    |
   * |-----------------------------------------------------------------------------------------+
-  * | CAPS   |     |     |     |     |     |     |     | PScr | Scrl |Pus | Up |     | DELETE |
+  * | CAPS   |     |     |     |     |     |     |     | PScr | Scrl |Pus | Up |  \   |       |
   * |-----------------------------------------------------------------------------------------+
   * |         |V-UP |V-DWN|MUTE |Eject|     |  *  |  /  |Home | PgUp| Left|Right|             |
   * |-----------------------------------------------------------------------------------------+
@@ -45,9 +45,9 @@ enum anne_pro_layers {
   *
   */
  [FN] = LAYOUT_60_ansi( /* FN */
-    KC_PWR,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_BSLS,
-    KC_CAPS, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, _______, _______, _______, KC_PSCR, KC_SCRL, KC_PAUS, KC_UP, _______,  KC_DELETE,
-    _______,   KC_VOLD, KC_VOLU, KC_MUTE, KC_EJCT, _______, KC_PAST, KC_PSLS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT,           _______,
+    KC_PWR,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DELETE,
+    KC_CAPS, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, _______, _______, _______, KC_PSCR, KC_SCRL, KC_PAUS, KC_UP, KC_BSLS,  _______,
+    _______,   KC_VOLD, KC_VOLU, KC_MUTE, KC_EJCT, _______, KC_PAST, KC_PSLS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT,         _______,
     _______, KC_AP_RGB_MOD, KC_AP_RGB_VAD, KC_AP_RGB_VAI, _______, _______, KC_PPLS, KC_PMNS,  KC_END,  KC_PGDN, KC_DOWN, _______,
     _______, _______, _______,                            _______,                   _______, _______, _______, _______
 ),
